@@ -1,0 +1,30 @@
+.page {
+    max-width: 1000px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.button {
+    color: white;
+    font-weight: bold;
+    background-color: salmon;
+    text-align: center;
+    margin: 4px;
+    padding: 0px 6px;
+
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+
+    /* Not implemented yet */
+    -o-user-select: none;
+    user-select: none;  
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.loading-spinner {
+    margin: 40px;
+}

@@ -1,0 +1,19 @@
+.filter-title input, .filter-title select {
+    margin-left: 5px;
+}
+
+.exclude-sold-out input, .filter-title select {
+    margin-right: 5px;
+}
+
+.filter-title {
+    padding: 5px;
+}
+
+.filters div {
+    text-align: center;
+}
+
+.filter-title select {
+    height: 30px;
+}

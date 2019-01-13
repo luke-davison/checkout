@@ -1,0 +1,48 @@
+.add-to-cart input {
+    width: 30%;
+}
+
+.add-to-cart-quantity {
+    display: flex;
+    flex-direction: row;
+}
+
+.reduce-quantity, .increase-quantity {
+    padding: 4px;
+    width: 20%
+}
+
+.reduce-quantity:hover, .increase-quantity:hover {
+    cursor: pointer;
+}
+
+.reduce-quantity {
+    margin-left: 25% !important;
+    text-align: right;
+}
+
+.increase-quantity {
+    margin-right: 25% !important;
+}
+
+.add-to-cart-input {
+    text-align: center;
+}
+
+.no-spin::-webkit-inner-spin-button, .no-spin::-webkit-outer-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0 !important;
+    -moz-appearance:textfield !important;
+}
+
+.sold-out {
+    background-color: black !important;
+}
+
+.sold-out:hover {
+    cursor: default !important;
+}
+
+.low-stock {
+    background-color: brown;
+}
